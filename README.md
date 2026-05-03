@@ -1,16 +1,33 @@
-# React + Vite
+# Repeat TinyProofs React Practice - Section 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo repeats React basics with less prepared code and more active implementation.
 
-Currently, two official plugins are available:
+## Workflow
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `pe` = push ettim
+- `pra` = PR açıldı
+- `mr`= merged
+- Work happens on lesson branches.
+- `main` should stay clean.
+- Each lesson has a small scope.
+- HTML and Tailwind stay minimal.
+- React concepts matter more than polished UI.
 
-## React Compiler
+## Lesson Notes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Lesson 00 - Cleanup existing setup
 
-## Expanding the ESLint configuration
+Goal:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Start from an existing Vite React setup.
+- Remove template UI.
+- Add minimal Tailwind v4 support.
+- Keep the app intentionally simple.
+
+Concepts:
+
+- Vite project structure
+- `src/App.jsx`
+- `src/index.css`
+- Tailwind import
+- Small Git branch workflow
